@@ -155,7 +155,7 @@ export default function Home() {
 
                     {/* Currículo */}
                     <a
-                        href="/Curriculo - Kelton Marrocos.pdf"
+                        href="/Portfolio-main/portifolio/public/Curriculo - Kelton Marrocos.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-transparent text-white px-6 py-3 rounded-lg 
