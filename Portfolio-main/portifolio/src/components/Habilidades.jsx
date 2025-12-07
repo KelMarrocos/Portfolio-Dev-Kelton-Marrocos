@@ -12,7 +12,7 @@ import { FaPython } from "react-icons/fa6";
 import { FaLaravel } from "react-icons/fa6";
 import { SiDjango } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { DiMysql } from "react-icons/di";
+import { DiJava, DiMysql } from "react-icons/di";
 import { DiPostgresql } from "react-icons/di";
 import { TbBrandMongodb } from "react-icons/tb";
 import { FaDocker } from "react-icons/fa";
@@ -20,6 +20,7 @@ import { SiGooglecloud } from "react-icons/si";
 import { FaAws } from "react-icons/fa6";
 import { VscAzureDevops } from "react-icons/vsc";
 import { SiFastapi } from "react-icons/si";
+import { Icon } from "lucide-react";
 
 
 export default function Habilidades() {
@@ -47,6 +48,7 @@ export default function Habilidades() {
     // { name: 'Django', icon: SiDjango },
     // { name: 'Express', icon: SiExpress },
     { name: 'MySQL', icon: DiMysql },
+    { name: 'Java', icon: DiJava },
     // { name: 'PostgreSQL', icon: DiPostgresql },
     // { name: 'MongoDB', icon: TbBrandMongodb },
    // { name: 'FastAPI', icon: SiFastapi },
@@ -55,7 +57,7 @@ export default function Habilidades() {
   const devOpsCloud = [
     // { name: 'Docker', icon: FaDocker },
     // { name: 'DevOps', icon: VscAzureDevops },
-    // { name: 'Google Cloud', icon: SiGooglecloud },
+    { name: 'Google Cloud', icon: SiGooglecloud },
     // { name: 'AWS', icon: FaAws },
   ];
 

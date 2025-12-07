@@ -10,7 +10,7 @@ export default function FormacaoCertificacoes({ onVerCertificados }) {
     {
       titulo: "Gestão da Tecnologia da Informação",
       instituicao: "Universidade Ages",
-      periodo: "Jav 2023 - Jun 2025",
+      periodo: "Jan 2023 - Jun 2025",
       icon: <FaGraduationCap className="text-white" size={20} />,
     },
     // {
