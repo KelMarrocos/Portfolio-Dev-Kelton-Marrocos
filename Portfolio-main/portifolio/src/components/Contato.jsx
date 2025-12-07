@@ -126,7 +126,7 @@ export default function Contato() {
             const subject = encodeURIComponent(`Contato de ${nome}`);
             const body = encodeURIComponent(`Nome: ${nome}\nEmail: ${email}\n\nMensagem:\n${mensagem}`);
 
-            window.location.href = `mailto:kayquemiqueias17@gmail.com?subject=${subject}&body=${body}`;
+            window.location.href = `mailto:keltonmarrocosdev@gmail.com?subject=${subject}&body=${body}`;
           }}
         >
 
@@ -152,7 +152,7 @@ export default function Contato() {
           {/* Github */}
           <motion.div whileHover={{ scale: 1.2, y: -5 }}>
             <Link
-              href="https://github.com/kayquemab"
+              href="https://github.com/KelMarrocos"
               target="_blank"
               className="bg-transparent text-white px-6 py-3 rounded-lg 
                        transition-all duration-300 
@@ -165,7 +165,7 @@ export default function Contato() {
           {/* Linkedin */}
           <motion.div whileHover={{ scale: 1.2, y: -5 }}>
             <Link
-              href="https://www.linkedin.com/in/kayque-miqueias/"
+              href="https://www.linkedin.com/in/keltonmarrocos/"
               target="_blank"
               className="bg-transparent text-white px-6 py-3 rounded-lg 
                        transition-all duration-300 
@@ -178,7 +178,7 @@ export default function Contato() {
           {/* E-mail */}
           <motion.div whileHover={{ scale: 1.2, y: -5 }}>
             <Link
-              href={`mailto:kayquemiqueias17@gmail.com?subject=Contato%20via%20Portfólio&body=Olá,%20tudo%20bem?%0D%0A%0D%0AGostaria%20de%20entrar%20em%20contato%20com%20você%20para%20discutir%20possíveis%20projetos%20ou%20colaborações.`}
+              href={`mailto:keltonmarrocosdev@gmail.com?subject=Contato%20via%20Portfólio&body=Olá,%20tudo%20bem?%0D%0A%0D%0AGostaria%20de%20entrar%20em%20contato%20com%20você%20para%20discutir%20possíveis%20projetos%20ou%20colaborações.`}
               className="bg-transparent text-white px-6 py-3 rounded-lg 
              transition-all duration-300 
              hover:text-white flex items-center justify-center"

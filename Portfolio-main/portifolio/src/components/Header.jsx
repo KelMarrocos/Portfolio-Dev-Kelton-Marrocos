@@ -21,7 +21,7 @@ export default function Header({ scrollToSection }) {
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                 className="hidden md:block hover:opacity-70 transition-opacity"
               >
-                Kayque Miqueias
+                Kelton Marrocos
               </button>
             </li>
           </ul>

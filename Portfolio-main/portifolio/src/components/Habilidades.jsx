@@ -36,7 +36,7 @@ export default function Habilidades() {
     // { name: 'Vite', icon: SiVite },
     { name: 'Tailwind', icon: SiTailwindcss },
     // { name: 'Bootstrap', icon: FaBootstrap },
-    { name: 'MUI', icon: SiMui },
+    //{ name: 'MUI', icon: SiMui },
   ];
 
   const backEnd = [
@@ -46,10 +46,10 @@ export default function Habilidades() {
     // { name: 'Laravel', icon: FaLaravel },
     // { name: 'Django', icon: SiDjango },
     // { name: 'Express', icon: SiExpress },
-    // { name: 'MySQL', icon: DiMysql },
+    { name: 'MySQL', icon: DiMysql },
     // { name: 'PostgreSQL', icon: DiPostgresql },
     // { name: 'MongoDB', icon: TbBrandMongodb },
-    { name: 'FastAPI', icon: SiFastapi },
+   // { name: 'FastAPI', icon: SiFastapi },
   ];
 
   const devOpsCloud = [

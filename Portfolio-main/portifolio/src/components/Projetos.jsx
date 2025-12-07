@@ -7,11 +7,11 @@ export default function Projetos() {
 
   const projetos = [
     {
-      name: "Projeto: Costs",
-      descricao: "Sistema para gerenciar orçamentos e custos de projetos.",
-      site: "https://costs-projeto.vercel.app/",
-      github: "https://github.com/kayquemab/Projeto_Costs",
-      video: "/video_costs.mp4",
+      name: "Projeto: JavaBank",
+      descricao: "Sistema back-end funcional de um banco em Java.",
+      site: "Disponível em breve :)",
+      github: "https://github.com/KelMarrocos/JavaBank",
+      video: "Disponível em breve :)",
     },
 
 

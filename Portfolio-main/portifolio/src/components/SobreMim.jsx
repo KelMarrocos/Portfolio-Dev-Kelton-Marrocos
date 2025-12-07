@@ -51,11 +51,11 @@ export default function SobreMim() {
           <p className="text-lg text-gray-300 leading-relaxed mb-4">
             Sou um desenvolvedor fullstack focado em criar soluções eficientes e bem estruturadas.
             Tenho uma base sólida em lógica de programação, venho aplicando esses conhecimentos em
-            projetos práticos que envolvem desde APIs até interfaces modernas.
+            projetos práticos.
           </p>
 
           <p className="text-lg text-gray-300 leading-relaxed">
-            Trabalho com React, Tailwind CSS, Node.js, e bancos de dados como MongoDB e PostgreSQL.
+            Trabalho com React, Tailwind CSS, Node.js, Delphi, Java, JavaScrip, React Native e bancos de dados como MySQL.
             Tenho experiência desenvolvendo dashboards, sistemas internos, e integração com APIs REST,
             sempre priorizando performance, clareza no código e uma ótima experiência para o usuário.
           </p>

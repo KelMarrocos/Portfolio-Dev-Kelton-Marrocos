@@ -119,7 +119,7 @@ export default function Home() {
 
                 {/* Nome e função */}
                 <h1 className="text-4xl md:text-5xl font-bold text-white">
-                    Kayque Miqueias<br />
+                    Kelton Marrocos<br />
                     Desenvolvedor Full-Stack
                 </h1>
 
@@ -133,7 +133,7 @@ export default function Home() {
 
                     {/* Github */}
                     <Link
-                        href="https://github.com/kayquemab"
+                        href="https://github.com/KelMarrocos"
                         target="_blank"
                         className="bg-transparent text-white px-6 py-3 rounded-lg 
              transition-all duration-300 
@@ -144,7 +144,7 @@ export default function Home() {
 
                     {/* Linkedin */}
                     <Link
-                        href="https://www.linkedin.com/in/kayque-miqueias/"
+                        href="https://www.linkedin.com/in/keltonmarrocos/"
                         target="_blank"
                         className="bg-transparent text-white px-6 py-3 rounded-lg 
              transition-all duration-300 
@@ -155,7 +155,7 @@ export default function Home() {
 
                     {/* Currículo */}
                     <a
-                        href="/Curriculo.pdf"
+                        href="/Curriculo - Kelton Marrocos.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-transparent text-white px-6 py-3 rounded-lg 

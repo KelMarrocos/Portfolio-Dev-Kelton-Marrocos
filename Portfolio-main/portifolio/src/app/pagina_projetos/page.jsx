@@ -8,24 +8,23 @@ export default function Todos() {
     const projetos = [
 
         {
-            name: "Projeto: Costs",
-            descricao: "Sistema para gerenciar orçamentos e custos de projetos.",
-            site: "https://costs-projeto.vercel.app/",
-            github: "https://github.com/kayquemab/Projeto_Costs",
-            video: "/video_costs.mp4",
+            name: "Projeto: Music-Player-App",
+            descricao: "Sistema de palyer de músiacas inspirado no Spotify.",
+            site: "Ainda não disponível.",
+            github: "https://github.com/KelMarrocos/Music-Player-App",
+            video: "Ainda não disponível.",
         },
         {
-            name: "Projeto: 100 Algotitmos",
-            descricao: "Repositório com 100 algoritmos de lógica de programação.",
-            github: "https://github.com/kayquemab/Projeto_Algoritmos",
-            video: "/video_algoritmos.mp4",
+            name: "Projeto: Modern-Login",
+            descricao: "Interface de login.",
+            github: "https://github.com/KelMarrocos/Modern-Login",
+            video: "Ainda não disponível.",
         },
         {
-            name: "Projeto: Google Glass",
-            descricao: "Site informativo sobre o Google Glass e suas especificações.",
-            site: "https://google-glass-projeto.vercel.app/",
-            github: "https://github.com/kayquemab/Projeto_GoogleGlass",
-            video: "/video_googleGlass.mp4",
+            name: "Projeto: JavaBank",
+            descricao: "Back-end de um sistema bancario.",
+            github: "https://github.com/KelMarrocos/JavaBank",
+            video: "Ainda não disponível.",
         },
 
     ];

@@ -8,9 +8,9 @@ export default function FormacaoCertificacoes({ onVerCertificados }) {
 
   const formacao = [
     {
-      titulo: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
-      instituicao: "Universidade Cruzeiro do Sul",
-      periodo: "Fev 2022 - Dez 2024",
+      titulo: "Gestão da Tecnologia da Informação",
+      instituicao: "Universidade Ages",
+      periodo: "Jav 2023 - Jun 2025",
       icon: <FaGraduationCap className="text-white" size={20} />,
     },
     // {

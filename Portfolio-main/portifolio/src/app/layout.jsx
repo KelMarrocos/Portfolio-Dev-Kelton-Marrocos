@@ -2,7 +2,7 @@ import "./globals.css";
 import SectionWrapper from "@/components/common/SectionWrapper";
 
 export const metadata = {
-  title: "Kayque | Portfólio",
+  title: "Kelton | Portfólio",
   icons: {
     icon: [
       { url: '/Iconlight.svg',  media: '(prefers-color-scheme: dark)' },
