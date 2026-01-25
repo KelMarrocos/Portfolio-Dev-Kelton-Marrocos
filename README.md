@@ -1,4 +1,4 @@
-🧑🏻‍💻 Portfólio | Dev — Kelton Marrocos
+# 🧑🏻‍💻 Portfólio | Dev — Kelton Marrocos
 
 README do portfólio, elaborado para apresentar a estrutura do repositório, orientar a navegação pelos projetos e descrever padrões de uso e contribuição.
 📌 Sobre
@@ -8,27 +8,27 @@ Este repositório reúne informações do meu trabalho: links para repositórios
 
 📂 portifolio
 
-├── 📂 public
+    ├── 📂 public
 
-├── 📂 src
+    ├── 📂 src
 
-├── 📑 .gitignore
+    ├── 📑 .gitignore
 
-├── 📑 README.md
+    ├── 📑 README.md
 
-├── 📑 eslint.config.mjs
+    ├── 📑 eslint.config.mjs
 
-├── 📑 jsconfig.json
+    ├── 📑 jsconfig.json
 
-├── 📑 next.config.mjs
+    ├── 📑 next.config.mjs
 
-├── 📑 package-lock.json
+    ├── 📑 package-lock.json
 
-├── 📑 package.json
+    ├── 📑 package.json
 
-└── 📑 postcss.config.mjs
+    └── 📑 postcss.config.mjs
 
-🚀 Como Usar
+### 🚀 Como Usar
 
 Acesse o portfólio:
     link: (https://portfolio-dev-kelton-marrocos.vercel.app/)
@@ -36,11 +36,11 @@ Acesse o portfólio:
     Entre em contato pelos canais disponibilizados no site (links diretos no rodapé/contato).
     
 
-🤝 Contribuição
+### 🤝 Contribuição
 
 Sugestões são bem-vindas! Abra um Pull Request ou crie uma Issue com contexto e objetivo da melhoria.
 Padrões sugeridos: mensagens de commit claras, pequenos PRs e descrição do impacto.
 
 
-📜 Licença
+### 📜 Licença
 MIT — use e modifique como quiser.
