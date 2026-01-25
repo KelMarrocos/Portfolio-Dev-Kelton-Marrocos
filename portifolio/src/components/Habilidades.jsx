@@ -41,22 +41,22 @@ export default function Habilidades() {
   ];
 
   const backEnd = [
-    // { name: 'Node', icon: FaNodeJs },
+    { name: 'Node', icon: FaNodeJs },
     // { name: 'PHP', icon: FaPhp },
     { name: 'Python', icon: FaPython },
     // { name: 'Laravel', icon: FaLaravel },
     // { name: 'Django', icon: SiDjango },
-    // { name: 'Express', icon: SiExpress },
+    { name: 'Express', icon: SiExpress },
     { name: 'MySQL', icon: DiMysql },
     { name: 'Java', icon: DiJava },
     // { name: 'PostgreSQL', icon: DiPostgresql },
-    // { name: 'MongoDB', icon: TbBrandMongodb },
+    { name: 'MongoDB', icon: TbBrandMongodb },
    // { name: 'FastAPI', icon: SiFastapi },
   ];
 
   const devOpsCloud = [
     // { name: 'Docker', icon: FaDocker },
-    // { name: 'DevOps', icon: VscAzureDevops },
+    { name: 'Azure DevOps', icon: VscAzureDevops },
     { name: 'Google Cloud', icon: SiGooglecloud },
     // { name: 'AWS', icon: FaAws },
   ];
