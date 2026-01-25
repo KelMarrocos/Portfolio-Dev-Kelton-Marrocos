@@ -22,20 +22,20 @@ export default function Todos() {
             - Deletar usuários`,
 
         github: "https://github.com/KelMarrocos/fullstack-users-crud",
-        video: "/public/user-registration-system.mp4",
+        video: "/user-registration-system.mp4",
         },
 
         {
             name: "Projeto: Music-Player-App",
             descricao: "Sistema de palyer de músiacas inspirado no Spotify.",
             github: "https://github.com/KelMarrocos/Music-Player-App",
-            video: "/public/Music-Player-App.mp4",
+            video: "/Music-Player-App.mp4",
         },
         {
             name: "Projeto: Modern-Login",
             descricao: "Interface de login.",
             github: "https://github.com/KelMarrocos/Modern-Login",
-            video: "/public/Modern-Login.mp4",
+            video: "/Modern-Login.mp4",
         },
         {
             name: "Projeto: JavaBank",
