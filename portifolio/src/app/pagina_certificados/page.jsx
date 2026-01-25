@@ -1,10 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { House } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { House, X } from "lucide-react";
 import { FaLaptopCode } from "react-icons/fa6";
+import { useState, useEffect } from "react";
 
 export default function Certificados() {
+  const [selectedCert, setSelectedCert] = useState(null);
+
   const certificacoes = [
     {
       titulo: "Gestão da Tecnologia da Informação",
@@ -70,6 +73,15 @@ export default function Certificados() {
     }),
   };
 
+  // Fecha modal com ESC
+  useEffect(() => {
+    function handleEsc(e) {
+      if (e.key === "Escape") setSelectedCert(null);
+    }
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, []);
+
   return (
     <section className="min-h-screen px-6 sm:px-10 md:px-16 py-24 text-center">
       {/* Título */}
@@ -83,14 +95,23 @@ export default function Certificados() {
         Meus Certificados
       </motion.h2>
 
-      {/* Grid de cartões */}
+      {/* Subtítulo */}
+      <motion.p
+        className="text-gray-300 mb-8 text-center max-w-2xl mx-auto"
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.9, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
+        Clique em um certificado para ampliá-lo.
+      </motion.p>
+
+      {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {certificacoes.map((cert, i) => (
-          <motion.a
+          <motion.div
             key={cert.titulo}
-            href={cert.pdf}              // 👉 cada card abre um PDF diferente
-            rel="noopener noreferrer"
-            target="_blank"
+            onClick={() => setSelectedCert(cert)}
             className="bg-neutral-800 rounded-xl overflow-hidden text-left shadow-md flex flex-col cursor-pointer"
             variants={cardVariants}
             initial="hidden"
@@ -98,16 +119,16 @@ export default function Certificados() {
             viewport={{ once: true }}
             custom={i}
             whileHover={{
-              scale: 1.08,
+              scale: 1.05,
               transition: {
                 type: "spring",
-                stiffness: 220,
-                damping: 24,
+                stiffness: 200,
+                damping: 20,
               },
             }}
           >
-            {/* Imagem em cima da parte cinza */}
-            <div className="w-full h-45 bg-neutral-700">
+            {/* Banner */}
+            <div className="w-full h-[180px] bg-neutral-700">
               <img
                 src={cert.imagem}
                 alt={cert.titulo}
@@ -115,7 +136,7 @@ export default function Certificados() {
               />
             </div>
 
-            {/* Conteúdo do card */}
+           {/* Conteúdo */}
             <div className="p-5 flex gap-4 items-start">
               <FaLaptopCode size={24} className="text-white shrink-0 mt-1" />
               <div>
@@ -124,16 +145,51 @@ export default function Certificados() {
                 <p className="text-gray-500 text-xs mt-1">{cert.data}</p>
               </div>
             </div>
-          </motion.a>
+          </motion.div>
         ))}
       </div>
+
+      {/* MODAL */}
+      <AnimatePresence>
+        {selectedCert && (
+          <motion.div
+            className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedCert(null)}
+          >
+            <motion.div
+              className="relative max-w-5xl w-full"
+              initial={{ scale: 0.85, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.85, opacity: 0 }}
+              transition={{ type: "spring", stiffness: 180, damping: 22 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Botão fechar */}
+              <button
+                onClick={() => setSelectedCert(null)}
+                className="absolute -top-4 -right-4 bg-neutral-900 text-white p-2 rounded-full hover:bg-neutral-800 transition"
+              >
+                <X size={20} />
+              </button>
+
+              {/* Imagem grande */}
+              <img
+                src={selectedCert.imagem}
+                alt={selectedCert.titulo}
+                className="w-full max-h-[85vh] object-contain rounded-xl shadow-2xl"
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Botão */}
       <motion.a
         href="/"
-        rel="noopener noreferrer"
-        className="mt-8 px-6 py-3 bg-white text-gray-900 font-semibold rounded-lg
-             shadow-md inline-block transition-none"
+        className="mt-8 px-6 py-3 bg-white text-gray-900 font-semibold rounded-lg shadow-md inline-block transition-none"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 70, damping: 15, delay: 0.3 }}
@@ -142,17 +198,14 @@ export default function Certificados() {
           scale: 1.12,
           y: -6,
           boxShadow: "0px 12px 25px rgba(0,0,0,0.35)",
-          transition: { duration: 0.15, ease: "easeOut" },
         }}
         whileTap={{
           scale: 0.96,
           y: 0,
-          boxShadow: "0px 4px 10px rgba(0,0,0,0.25)",
-          transition: { duration: 0.1, ease: "easeIn" },
         }}
       >
         <span className="inline-flex items-center gap-2">
-          <House size={16} className="inline-block" />
+          <House size={16} />
           Voltar para Home
         </span>
       </motion.a>

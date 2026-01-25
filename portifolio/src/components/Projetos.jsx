@@ -7,11 +7,21 @@ export default function Projetos() {
 
   const projetos = [
     {
-      name: "Projeto: JavaBank",
-      descricao: "Sistema back-end funcional de um banco em Java.",
-      site: "Disponível em breve :)",
-      github: "https://github.com/KelMarrocos/JavaBank",
-      video: "Disponível em breve :)",
+      name: "Projeto: user-registration-system",
+      descricao: `
+        Aplicação fullstack para gerenciamento de usuários.
+
+        Desenvolvida com React no frontend e Node.js + Express no backend,
+        utilizando Prisma ORM e MongoDB Atlas.
+
+        Funcionalidades:
+        - Criar usuários
+        - Listar usuários
+        - Editar usuários
+      - Deletar usuários`,
+
+      github: "https://github.com/KelMarrocos/fullstack-users-crud",
+      video: "/user-registration-system.mp4",
     },
 
 
