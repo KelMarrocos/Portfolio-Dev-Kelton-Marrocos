@@ -8,23 +8,39 @@ export default function Todos() {
     const projetos = [
 
         {
+        name: "Projeto: user-registration-system",
+        descricao: `
+            Aplicação fullstack para gerenciamento de usuários.
+
+            Desenvolvida com React no frontend e Node.js + Express no backend,
+            utilizando Prisma ORM e MongoDB Atlas.
+
+            Funcionalidades:
+            - Criar usuários
+            - Listar usuários
+            - Editar usuários
+            - Deletar usuários`,
+
+        github: "https://github.com/KelMarrocos/fullstack-users-crud",
+        video: "/public/user-registration-system.mp4",
+        },
+
+        {
             name: "Projeto: Music-Player-App",
             descricao: "Sistema de palyer de músiacas inspirado no Spotify.",
-            site: "Ainda não disponível.",
             github: "https://github.com/KelMarrocos/Music-Player-App",
-            video: "Ainda não disponível.",
+            video: "/public/Music-Player-App.mp4",
         },
         {
             name: "Projeto: Modern-Login",
             descricao: "Interface de login.",
             github: "https://github.com/KelMarrocos/Modern-Login",
-            video: "Ainda não disponível.",
+            video: "/public/Modern-Login.mp4",
         },
         {
             name: "Projeto: JavaBank",
             descricao: "Back-end de um sistema bancario.",
             github: "https://github.com/KelMarrocos/JavaBank",
-            video: "Ainda não disponível.",
         },
 
     ];
