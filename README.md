@@ -7,26 +7,40 @@ Este repositório reúne informações do meu trabalho: links para repositórios
 📂 Estrutura
 
 📂 portifolio
+
 ├── 📂 public
+
 ├── 📂 src
+
 ├── 📑 .gitignore
+
 ├── 📑 README.md
+
 ├── 📑 eslint.config.mjs
+
 ├── 📑 jsconfig.json
+
 ├── 📑 next.config.mjs
+
 ├── 📑 package-lock.json
+
 ├── 📑 package.json
+
 └── 📑 postcss.config.mjs
+
 🚀 Como Usar
 
-    Acesse o portfólio:
-    link: (https://portfolio-dev-kelton-marrocos-7nvok04lz.vercel.app/)
+Acesse o portfólio:
+    link: (https://portfolio-dev-kelton-marrocos.vercel.app/)
     Explore as seções da página (projetos, stack, sobre e documentação).
     Entre em contato pelos canais disponibilizados no site (links diretos no rodapé/contato).
+    
 
 🤝 Contribuição
 
 Sugestões são bem-vindas! Abra um Pull Request ou crie uma Issue com contexto e objetivo da melhoria.
 Padrões sugeridos: mensagens de commit claras, pequenos PRs e descrição do impacto.
+
+
 📜 Licença
 MIT — use e modifique como quiser.
