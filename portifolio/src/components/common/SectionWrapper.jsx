@@ -5,7 +5,7 @@ const SectionWrapper = ({ children }) => {
 
     <section
       className="min-h-screen flex flex-col justify-center items-center px-6 text-center
-    bg-neutral-900"
+        bg-gradient-to-br from-blue-950 via-slate-900 to-blue-950"
     >
       {children}
     </section>

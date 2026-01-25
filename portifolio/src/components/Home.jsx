@@ -136,8 +136,8 @@ export default function Home() {
                         href="https://github.com/KelMarrocos"
                         target="_blank"
                         className="bg-transparent text-white px-6 py-3 rounded-lg 
-             transition-all duration-300 
-             hover:text-white hover:scale-110 hover:shadow-lg hover:-translate-y-1"
+                        transition-all duration-300 
+                        hover:text-white hover:scale-110 hover:shadow-lg hover:-translate-y-1"
                     >
                         <Github />
                     </Link>
@@ -147,8 +147,8 @@ export default function Home() {
                         href="https://www.linkedin.com/in/keltonmarrocos/"
                         target="_blank"
                         className="bg-transparent text-white px-6 py-3 rounded-lg 
-             transition-all duration-300 
-             hover:text-white hover:scale-110 hover:shadow-lg hover:-translate-y-1"
+                        transition-all duration-300 
+                        hover:text-white hover:scale-110 hover:shadow-lg hover:-translate-y-1"
                     >
                         <Linkedin />
                     </Link>
@@ -159,8 +159,8 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-transparent text-white px-6 py-3 rounded-lg 
-  transition-all duration-300 
-  hover:text-white hover:scale-110 hover:shadow-lg hover:-translate-y-1"
+                        transition-all duration-300 
+                        hover:text-white hover:scale-110 hover:shadow-lg hover:-translate-y-1"
                     >
                         <FileText />
                     </a>
