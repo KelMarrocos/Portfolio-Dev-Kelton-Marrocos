@@ -23,6 +23,30 @@ export default function Projetos() {
       github: "https://github.com/KelMarrocos/fullstack-users-crud",
       video: "/user-registration-system.mp4",
     },
+    {
+      name: "Projeto: car-rental-platform",
+      descricao: `
+        Plataforma fullstack de aluguel de veículos inspirada em modelos como Airbnb e Turo. 
+        O sistema permite que proprietários cadastrem seus carros e que usuários busquem, 
+        filtrem e reservem veículos com verificação automática de disponibilidade por datas.
+
+        Desenvolvido com foco em experiência do usuário, 
+        lógica de negócio real e arquitetura escalável.
+
+        Principais Diferenciais
+        - Busca inteligente por localização e datas
+        - Verificação automática de conflito de reservas
+        - Cálculo dinâmico de preço por período
+        - Sistema de filtros avançados (categoria, combustível, transmissão, preço)
+        - Dashboard administrativo com métricas em tempo real
+        -Upload otimizado de imagens com ImageKit
+        - Autenticação segura com JWT`,
+
+      github: "https://github.com/KelMarrocos/CarRental",
+      site:"https://car-rental-rosy-seven.vercel.app/",
+      video: "/Car-Rental.mp4",
+    },
+
 
 
   ];

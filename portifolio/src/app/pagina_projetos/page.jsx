@@ -38,6 +38,13 @@ export default function Todos() {
             video: "/Modern-Login.mp4",
         },
         {
+            name: "Projeto: car-rental-platform",
+            descricao: "Plataforma fullstack de aluguel de veículos inspirada em modelos como Airbnb e Turo",
+            github: "https://github.com/KelMarrocos/CarRental",
+            site: "https://car-rental-rosy-seven.vercel.app/",
+            video: "/Car-Rental.mp4",
+        },
+        {
             name: "Projeto: JavaBank",
             descricao: "Back-end de um sistema bancario.",
             github: "https://github.com/KelMarrocos/JavaBank",

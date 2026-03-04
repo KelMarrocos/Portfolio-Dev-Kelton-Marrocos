@@ -2,63 +2,114 @@
 
 import { motion } from "framer-motion";
 
-import { FaHtml5, FaReact, FaBootstrap } from "react-icons/fa";
-import { FaVuejs, FaAngular } from "react-icons/fa6";
-import { IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript, SiNextdotjs, SiVite, SiTailwindcss, SiMui } from "react-icons/si";
+/* =========================
+  🎨 Front-End
+========================= */
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io5";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { FaVuejs } from "react-icons/fa6";
+import { FaAngular } from "react-icons/fa6";
+import { SiNextdotjs } from "react-icons/si";
+import { SiVite } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
+import { SiMui } from "react-icons/si";
+import { RiSvelteFill } from "react-icons/ri";
+
+/* =========================
+  ⚙️ Back-End
+========================= */
 import { FaNodeJs } from "react-icons/fa6";
 import { FaPhp } from "react-icons/fa6";
-import { FaPython } from "react-icons/fa6";
 import { FaLaravel } from "react-icons/fa6";
-import { SiDjango } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { DiJava, DiMysql } from "react-icons/di";
-import { DiPostgresql } from "react-icons/di";
-import { TbBrandMongodb } from "react-icons/tb";
+import { FaPython } from "react-icons/fa6";
+import { SiDjango } from "react-icons/si";
+import { SiFastapi } from "react-icons/si";
+import { SiPandas } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { SiSqlalchemy } from "react-icons/si";
+import { SiPytest } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { DiRuby } from "react-icons/di";
+import { DiJava } from "react-icons/di";
+
+
+/* =========================
+  ☁️ DevOps / Cloud
+========================= */
 import { FaDocker } from "react-icons/fa";
+import { RiVercelLine } from "react-icons/ri";
+import { FaGitAlt } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
+import { VscAzureDevops } from "react-icons/vsc";
 import { SiGooglecloud } from "react-icons/si";
 import { FaAws } from "react-icons/fa6";
-import { VscAzureDevops } from "react-icons/vsc";
-import { SiFastapi } from "react-icons/si";
-import { Icon } from "lucide-react";
+
+/* =========================
+  🗄️ Databases
+========================= */
+import { DiMysql } from "react-icons/di";
+import { DiPostgresql } from "react-icons/di";
+import { TbBrandMongodb } from "react-icons/tb";
+import { GrOracle } from "react-icons/gr";
+import { DiMsqlServer } from "react-icons/di";
 
 
 export default function Habilidades() {
 
   const frontEnd = [
-    { name: 'HTML5', icon: FaHtml5 },
-    { name: 'CSS3', icon: IoLogoCss3 },
-    { name: 'JavaScript', icon: IoLogoJavascript },
-    // { name: 'TypeScript', icon: SiTypescript },
-    { name: 'React', icon: FaReact },
-    // { name: 'Vue', icon: FaVuejs },
-    // { name: 'Angular', icon: FaAngular },
-    { name: 'Next', icon: SiNextdotjs },
-    // { name: 'Vite', icon: SiVite },
-    { name: 'Tailwind', icon: SiTailwindcss },
-    // { name: 'Bootstrap', icon: FaBootstrap },
-    //{ name: 'MUI', icon: SiMui },
+    // { name: "HTML5", icon: FaHtml5 },
+    // { name: "CSS3", icon: IoLogoCss3 },
+    { name: "JavaScript", icon: IoLogoJavascript },
+    { name: "TypeScript", icon: SiTypescript },
+    { name: "React", icon: FaReact },
+    // { name: "Vue", icon: FaVuejs },
+    // { name: "Angular", icon: FaAngular },
+    { name: "Next", icon: SiNextdotjs },
+    { name: "Vite", icon: SiVite },
+    { name: "Tailwind", icon: SiTailwindcss },
+    // { name: "Bootstrap", icon: FaBootstrap },
+    // { name: "MUI", icon: SiMui },
+    // { name: "Svelte", icon: RiSvelteFill },
   ];
 
   const backEnd = [
-    { name: 'Node', icon: FaNodeJs },
-    // { name: 'PHP', icon: FaPhp },
-    { name: 'Python', icon: FaPython },
-    // { name: 'Laravel', icon: FaLaravel },
-    // { name: 'Django', icon: SiDjango },
-    { name: 'Express', icon: SiExpress },
-    { name: 'MySQL', icon: DiMysql },
     { name: 'Java', icon: DiJava },
-    // { name: 'PostgreSQL', icon: DiPostgresql },
-    { name: 'MongoDB', icon: TbBrandMongodb },
-   // { name: 'FastAPI', icon: SiFastapi },
+    { name: "Node", icon: FaNodeJs },
+    // { name: "PHP", icon: FaPhp },
+    // { name: "Laravel", icon: FaLaravel },
+    { name: "Express", icon: SiExpress },
+    // { name: "Python", icon: FaPython },
+    // { name: "Django", icon: SiDjango },
+    { name: "FastAPI", icon: SiFastapi },
+    // { name: "Pandas", icon: SiPandas },
+    // { name: "NumPy", icon: SiNumpy },
+    // { name: "SQLAlchemy", icon: SiSqlalchemy },
+    // { name: "Pytest", icon: SiPytest },
+    // { name: "scikit-learn", icon: SiScikitlearn },
+    // { name: "Ruby", icon: DiRuby }
   ];
 
   const devOpsCloud = [
-    // { name: 'Docker', icon: FaDocker },
-    { name: 'Azure DevOps', icon: VscAzureDevops },
-    { name: 'Google Cloud', icon: SiGooglecloud },
-    // { name: 'AWS', icon: FaAws },
+    // { name: "Docker", icon: FaDocker },
+    { name: "Vercel", icon: RiVercelLine },
+    { name: "Git", icon: FaGitAlt },
+    { name: "Postman", icon: SiPostman },
+    { name: "DevOps", icon: VscAzureDevops },
+    { name: "Google Cloud", icon: SiGooglecloud },
+    // { name: "AWS", icon: FaAws },
+  ];
+
+  const databases = [
+    { name: "MySQL", icon: DiMysql },
+    // { name: "PostgreSQL", icon: DiPostgresql },
+    { name: "MongoDB", icon: TbBrandMongodb },
+    // { name: "Oracle", icon: GrOracle },
+    // { name: "SQL Server", icon: DiMsqlServer },
   ];
 
   // animação padrão para surgimento
@@ -69,10 +120,10 @@ export default function Habilidades() {
       y: 0,
       transition: {
         duration: 0.6,
-        delay: i * 0.1, // efeito em cascata
-        ease: "easeOut"
-      }
-    })
+        delay: i * 0.1,
+        ease: "easeOut",
+      },
+    }),
   };
 
   const renderSkillCard = (skill, i) => {
